@@ -1,0 +1,172 @@
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+
+
+#wrapper1 {
+	margin: 0 auto;
+	width: 1000px
+}
+.container_2 {
+	float: left;
+	display: block;
+}
+.container_3 {
+	width: 790px;
+	display: block;
+	margin: 0 auto;
+}
+.container_4{
+	width: 960px;
+	display: block;
+padding:30px 0 0 0;
+	
+	}
+.container_1 {
+	width: 1000px;
+	display: block;
+	padding: 20px 0;
+}
+.container_5{
+	width: 700px;
+	display: block;
+	padding:10px 0 0 0;
+	}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.e-wrap {
+	display: block;
+	width: 100%;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0 20px;
+}
+.grid_2{
+width:240px;	
+	}
+.grid_3 {
+	width: 280px;
+}
+.grid_4 {
+	width: 360px;
+}
+.container_4 .grid_4, #bottom .grid_4 {
+	width: 300px;
+	margin: 0 30px 0 0;
+}
+#bottom .grid_4 {
+	margin: 0 0 0 19px;
+}
+.container_4 .grid_5 {
+	width: 630px;
+	margin: 0 30px 0 0;
+}
+.container_4 .grid_6 {
+	width: 465px;
+	margin: 0 30px 0 0;
+}
+.grid_7{
+width:700px;
+margin:0 0 0 0;	
+	}
+	.grid_12{
+width:960px;		
+margin-bottom:30px;		
+		}
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0 !important;
+}
+.omega {
+	margin-right: 0 !important;
+}
+.omega_bottom {
+	margin-bottom: 0 !important;
+}
+.pad_noright {
+	padding-right: 0 !important;
+}
+.pad_noleft {
+	padding-left: 0 !important;
+}
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+#topheader .grid_1 {
+	width: auto;
+}
+#topheader .grid_2 {
+	width: 677px;
+	margin: 20px 0 0 0;
+}
+#topheader .grid_3 {
+	margin: 10px 0 0 0;
+}
+.container_3 .grid_3 {
+	width: 790px;
+}
+.container_2 {
+	width: 600px;
+}
+.upper_grid, .lower_grid {
+width:100%;
+	display: block;
+}
+.lower_grid {
+margin:30px 0 0 0;
+}
+#container{
+	width: 100%;
+	display: block;
+}
+
+.bottom_contain_1 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bottom_contain_1 .nav {
+	width: 147px;
+	height: 103px;
+	padding: 10px 10px 0 10px;
+	margin: 0 0;
+	overflow: hidden;
+	float: left;
+}
+.bottom_contain_1 .grid_6 {
+	width: 632px;
+	padding:45px 0 0 0;
+}
+.bottom_contain_1 .grid_8 {
+	margin: 0 0;
+	width:300px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:before, .clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
