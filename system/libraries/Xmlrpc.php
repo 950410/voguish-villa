@@ -27,7 +27,11 @@ if ( ! function_exists('xml_parser_create'))
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
+<<<<<<< HEAD
  * @category	XML-RPC
+=======
+ * @categories	XML-RPC
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
  */
@@ -347,7 +351,11 @@ class CI_Xmlrpc {
 /**
  * XML-RPC Client class
  *
+<<<<<<< HEAD
  * @category	XML-RPC
+=======
+ * @categories	XML-RPC
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
  */
@@ -425,7 +433,11 @@ class XML_RPC_Client extends CI_Xmlrpc
 /**
  * XML-RPC Response class
  *
+<<<<<<< HEAD
  * @category	XML-RPC
+=======
+ * @categories	XML-RPC
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
  */
@@ -604,7 +616,11 @@ class XML_RPC_Response
 /**
  * XML-RPC Message class
  *
+<<<<<<< HEAD
  * @category	XML-RPC
+=======
+ * @categories	XML-RPC
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
  */
@@ -1203,7 +1219,11 @@ class XML_RPC_Message extends CI_Xmlrpc
 /**
  * XML-RPC Values class
  *
+<<<<<<< HEAD
  * @category	XML-RPC
+=======
+ * @categories	XML-RPC
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
  */

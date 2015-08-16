@@ -23,7 +23,11 @@
  *
  * @package		CodeIgniter
  * @subpackage	codeigniter
+<<<<<<< HEAD
  * @category	Front-controller
+=======
+ * @categories	Front-controller
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link		http://codeigniter.com/user_guide/
  */

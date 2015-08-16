@@ -24,7 +24,11 @@
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
+<<<<<<< HEAD
  * @category	Libraries
+=======
+ * @categories	Libraries
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link
  */
@@ -103,7 +107,11 @@ class CI_Driver_Library {
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
+<<<<<<< HEAD
  * @category	Libraries
+=======
+ * @categories	Libraries
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link
  */

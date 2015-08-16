@@ -23,7 +23,11 @@
  * This class will not be called directly. Rather, the adapter
  * class for the specific database will extend and instantiate it.
  *
+<<<<<<< HEAD
  * @category	Database
+=======
+ * @categories	Database
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link		http://codeigniter.com/user_guide/database/
  */

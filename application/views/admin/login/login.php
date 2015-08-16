@@ -1,6 +1,10 @@
 <html>
 <head>
+<<<<<<< HEAD
     <title> login </title>
+=======
+    <title>Login </title>
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
     <link rel="stylesheet" href="<?php echo base_url('bootstrap/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('bootstrap/font-awesome/css/font-awesome.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('css/admin_style.css') ?>">
@@ -22,7 +26,11 @@
     </div>
     <div class="col-lg-12">
         <div class="panel panel-default">
+<<<<<<< HEAD
             <div class="panel-heading"><b>You have an account SIGN IN </b></div>
+=======
+            <div class="panel-heading"><b>You have an account. SIGN IN </b></div>
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
             <div class="panel-body">
                 <div class="row ">
                     <?php echo form_open('admin/login_manager/sign_in') ?>

@@ -52,7 +52,11 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
+<<<<<<< HEAD
 $autoload['libraries'] = array('database','session');
+=======
+$autoload['libraries'] = array();
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 
 
 /*
@@ -110,7 +114,12 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
+<<<<<<< HEAD
 
+=======
+$autoload['libraries'] = array( 'cart','database', 'session', 'form_validation', 'email' );
+$autoload['helper'] = array( 'url', 'form', 'download', 'file' );
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */

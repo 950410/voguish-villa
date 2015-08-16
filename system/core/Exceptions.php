@@ -21,7 +21,11 @@
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
+<<<<<<< HEAD
  * @category	Exceptions
+=======
+ * @categories	Exceptions
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/exceptions.html
  */

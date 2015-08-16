@@ -97,7 +97,11 @@ function create_menu(basepath)
 		'<li><a href="'+base+'libraries/file_uploading.html">File Uploading Class</a></li>' +
 		'<li><a href="'+base+'libraries/form_validation.html">Form Validation Class</a></li>' +
 		'<li><a href="'+base+'libraries/ftp.html">FTP Class</a></li>' +
+<<<<<<< HEAD
 		'<li><a href="'+base+'libraries/table.php">HTML Table Class</a></li>' +
+=======
+		'<li><a href="'+base+'libraries/table.html">HTML Table Class</a></li>' +
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 		'<li><a href="'+base+'libraries/image_lib.html">Image Manipulation Class</a></li>' +
 		'<li><a href="'+base+'libraries/input.html">Input Class</a></li>' +
 		'<li><a href="'+base+'libraries/javascript.html">Javascript Class</a></li>' +

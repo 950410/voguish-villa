@@ -21,7 +21,11 @@
  *
  * @package		CodeIgniter
  * @subpackage	Libraries
+<<<<<<< HEAD
  * @category	Shopping Cart
+=======
+ * @categories	Shopping Cart
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @author		EllisLab Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/cart.html
  */
@@ -93,7 +97,11 @@ class CI_Cart {
 		}
 
 		// You can either insert a single product using a one-dimensional array,
+<<<<<<< HEAD
 		// or multiple products using a multi-dimensional one. The way we
+=======
+		// or multiple product using a multi-dimensional one. The way we
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 		// determine the array type is by looking for a required array key named "id"
 		// at the top level. If it's not found, we will assume it's a multi-dimensional array.
 
@@ -209,7 +217,11 @@ class CI_Cart {
 		// We now need to create a unique identifier for the item being inserted into the cart.
 		// Every time something is added to the cart it is stored in the master cart array.
 		// Each row in the cart array, however, must have a unique index that identifies not only
+<<<<<<< HEAD
 		// a particular product, but makes it possible to store identical products with different options.
+=======
+		// a particular product, but makes it possible to store identical product with different options.
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 		// For example, what if someone buys two identical t-shirts (same product ID), but in
 		// different sizes?  The product ID (and other attributes, like the name) will be identical for
 		// both sizes because it's the same shirt. The only difference will be the size.
@@ -272,7 +284,11 @@ class CI_Cart {
 		}
 
 		// You can either update a single product using a one-dimensional array,
+<<<<<<< HEAD
 		// or multiple products using a multi-dimensional one.  The way we
+=======
+		// or multiple product using a multi-dimensional one.  The way we
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 		// determine the array type is by looking for a required array key named "id".
 		// If it's not found we assume it's a multi-dimensional array
 		$save_cart = FALSE;

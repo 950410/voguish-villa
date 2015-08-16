@@ -55,6 +55,10 @@ $db['default']['database'] = 'db_voguish-villa';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
+<<<<<<< HEAD
+=======
+//$db['default']['pconnect'] = FALSE;
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
@@ -64,6 +68,10 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+<<<<<<< HEAD
 
+=======
+$autoload ['libraries'] = array ('database');
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 /* End of file database.php */
 /* Location: ./application/config/database.php */

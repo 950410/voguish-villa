@@ -15,7 +15,28 @@
 |
 */
 $config['base_url']	= '';
+<<<<<<< HEAD
 
+=======
+/*
+|--------------------------------------------------------------------------
+| PayPal Account
+|--------------------------------------------------------------------------
+|
+| The email address PayPal payments should be made to
+|
+*/
+$config['paypal_email'] = "misthaamatya@gmail.com";
+/*
+|--------------------------------------------------------------------------
+| Website Name
+|--------------------------------------------------------------------------
+|
+| Will be used on page title bars, in emails etc.
+|
+*/
+$config['site_name'] = "Voguish-villa";
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -224,7 +245,11 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
+<<<<<<< HEAD
 $config['encryption_key'] = 'rojeenashresthadhalkokathmandu';
+=======
+$config['encryption_key'] = 'Voguish-villa';
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 
 /*
 |--------------------------------------------------------------------------
@@ -248,7 +273,12 @@ $config['sess_cookie_name']		= 'ci_session';
 $config['sess_expiration']		= 7200;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
+<<<<<<< HEAD
 $config['sess_use_database']	= FALSE;
+=======
+//$config['sess_use_database']	= FALSE;
+$config['sess_use_database'] = TRUE;
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 $config['sess_table_name']		= 'ci_sessions';
 $config['sess_match_ip']		= FALSE;
 $config['sess_match_useragent']	= TRUE;
@@ -278,8 +308,15 @@ $config['cookie_secure']	= FALSE;
 | Determines whether the XSS filter is always active when GET, POST or
 | COOKIE data is encountered
 |
+<<<<<<< HEAD
 */
 $config['global_xss_filtering'] = FALSE;
+=======
+*//*
+$config['global_xss_filtering'] = FALSE;*/
+
+$config['global_xss_filtering'] = TRUE;
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 
 /*
 |--------------------------------------------------------------------------

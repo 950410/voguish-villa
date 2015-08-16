@@ -41,6 +41,7 @@
 //$route['default_controller'] = "welcome";
 //$route['404_override'] = '';
 
+<<<<<<< HEAD
 //$route['news/create'] = 'news/create';
 ///$route['news/(:any)'] = 'news/view/$1';
 //$route['news'] = 'news';
@@ -52,5 +53,11 @@ $route['portalnews/news/(:any)']='front_controller/view_news_details/$1';
 $route['admin'] = 'admin/login_manager';
 $route['portalnews/(:any)']='front_controller/$1';
 //$route['about_us']='front_controller/about_us';
+=======
+$route['default_controller'] = 'homepage_controller';
+$route['item/:any'] = 'items/details';
+$route['purchase/:any'] = 'items/purchase';
+
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

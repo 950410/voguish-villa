@@ -24,7 +24,11 @@
  * @package		CodeIgniter
  * @subpackage	Libraries
  * @author		EllisLab Dev Team
+<<<<<<< HEAD
  * @category	Libraries
+=======
+ * @categories	Libraries
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
  * @link		http://codeigniter.com/user_guide/general/routing.html
  */
 class CI_Router {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script src="<?php echo base_url('jquery/jquery.js') ?>"></script>
 <script src="<?php echo base_url('jquery/jquery-2.1.3.min.js') ?>"></script>
 <script src="<?php echo base_url('jquery/bootstrap.min.js') ?>"></script>
@@ -35,6 +36,12 @@
     <div class="text-center">
         2014 - Alvarez.is
         <a href="#" class="go-top">
+=======
+<footer class="site-footer">
+    <div class="text-center">
+        2014 - Alvarez.is
+        <a href="index.html#" class="go-top">
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
             <i class="fa fa-angle-up"></i>
         </a>
     </div>
@@ -43,6 +50,29 @@
 </section>
 
 <!-- js placed at the end of the document so the pages load faster -->
+<<<<<<< HEAD
+=======
+<script src="<?php echo base_url('js/admin/jquery.js')?>"></script>
+<script src="<?php echo base_url('js/admin/jquery-1.8.3.min.js')?>"></script>
+<script src="<?php echo base_url('js/admin/bootstrap.min.js')?>"></script>
+<script class="include" type="text/javascript" src="<?php echo base_url('js/admin/jquery.dcjqaccordion.2.7.js')?>"></script>
+<script src="<?php echo base_url('js/admin/jquery.scrollTo.min.js')?>"></script>
+<script src="<?php echo base_url('js/admin/jquery.nicescroll.js')?>" type="text/javascript"></script>
+<script src="<?php echo base_url('js/admin/jquery.sparkline.js')?>"></script>
+
+
+<!--common script for all pages-->
+<script src="<?php echo base_url('js/admin/common-scripts.js')?>"></script>
+
+<script type="text/javascript" src="<?php echo base_url('js/admin/jquery.gritter.js')?>"></script>
+<script type="text/javascript" src="<?php echo base_url('js/admin/gritter-conf.js')?>"></script>
+
+<!--script for this page-->
+<script src="<?php echo base_url('js/admin/sparkline-chart.js')?>"></script>
+<script src="<?php echo base_url('js/admin/zabuto_calendar.js')?>"></script>
+
+<script src="<?php echo base_url('js/admin/custom.js')?>"></script>
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -98,6 +128,7 @@
         var to = $("#" + id).data("to");
         console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
     }
+<<<<<<< HEAD
 
     CKEDITOR.replace( 'news_text' );
 
@@ -105,3 +136,10 @@
 </body>
 </html>
 
+=======
+</script>
+
+
+</body>
+</html>
+>>>>>>> 9ebaefdfdb773a78adeb9ba76606342bf3f9b908
